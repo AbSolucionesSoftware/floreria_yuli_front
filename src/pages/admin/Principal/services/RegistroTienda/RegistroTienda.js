@@ -47,16 +47,16 @@ export default function RegistroTienda(props) {
     form.setFieldsValue(e);
   };
 
-  /* const [current, setCurrent] = useState(0); */
+  // const [current, setCurrent] = useState(0);
 
   const next = () => {
     setCurrent(current + 1);
 
   };
 
-  /* const prev = () => {
+  const prev = () => {
     setCurrent(current - 1);
-  }; */
+  };
 
   useEffect(() => {
     if (datosNegocio !== undefined) {

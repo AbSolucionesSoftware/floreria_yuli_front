@@ -125,9 +125,7 @@ const Navegacion = (props) => {
 				<Header className={'a1 ' + classes.background}>
 					<div className="menuCon a2">
 						<div className="top-menu row a3">
-							<div className="col-lg-5">
-								<Categorias />
-							</div>
+							
 							<div className="col-lg-2 row-logo-search">
 								<div className="row row-logo-search-2 ">
 									{datosContx.tienda && datosContx.tienda.length > 0 ? !datosContx.tienda[0]
@@ -151,8 +149,12 @@ const Navegacion = (props) => {
 								</div>
 							</div>
 
+							<div className="col-lg-6 containe-categorias">
+								<Categorias />
+							</div>
+
 							{/* INICIO DE AVATAR, TU CARRITO Y ENTRAR  */}
-							<div className="col-lg-5 row a4 containe-categorias d-flex justify-content-end">
+							<div className="col-lg-4 row a4 containe-categorias d-flex justify-content-end">
 								<Menu
 									className={'float-right navbar-menu-sesion a50 ' + classes.background}
 									/* theme="light" */

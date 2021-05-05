@@ -9,7 +9,7 @@ import { MenuContext } from './context/carritoContext';
 import clienteAxios from './config/axios';
 import jwt_decode from 'jwt-decode';
 
-import './scss/disenoDos.scss';
+import './scss/disenoFloreriaYuly.scss';
 
 export default function App() {
 

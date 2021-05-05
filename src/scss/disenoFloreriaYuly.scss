@@ -325,23 +325,26 @@ p, a, li{
 }
 
 // VARIABLES DE FUENTES DE NAVBAR 
-.font-nav-sec{
+// .font-nav-sec{
+//     font-size: 14px;
+//     letter-spacing: 1px;
+//     // font-weight: bold;
+//     font-family: 'Poppins', sans-serif;
+// }
+.font-cates{
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    // font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'AdihausDIN,Helvetica,Arial,sans-serif';
+}
+.font-nav{
     font-size: 14px;
     letter-spacing: 1px;
     // font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-}
-.font-cates{
-    font-size: 18px;
-    text-transform: uppercase;
-    // font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-}
-.font-nav{
-    font-size: 18px;
-    letter-spacing: 1px;
-    // font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'AdihausDIN,Helvetica,Arial,sans-serif';
 }
 
 //VARIABLES DE TITULOS GENERALES PARA TODA LA PAGINA

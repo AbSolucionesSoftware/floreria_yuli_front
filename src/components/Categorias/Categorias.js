@@ -139,7 +139,7 @@ const Categorias = (props) => {
 				triggerSubMenuAction="click"
 			>
 				{categorias_nav}
-				{datosContx.navbar.temporadas.length === 1 && datosContx.navbar.temporadas[0]._id === '' ? null : (
+				{/* {datosContx.navbar.temporadas.length === 1 && datosContx.navbar.temporadas[0]._id === '' ? null : (
 					<SubMenu
 						title="Temporadas"
 						className={
@@ -151,8 +151,8 @@ const Categorias = (props) => {
 					>
 						{temporadas_nav}
 					</SubMenu>
-				)}
-				{datosContx.navbar.genero.length === 1 && datosContx.navbar.genero[0]._id === 'Ninguno' ? null : (
+				)} */}
+				{/* {datosContx.navbar.genero.length === 1 && datosContx.navbar.genero[0]._id === 'Ninguno' ? null : (
 					<SubMenu
 					title="Género"
 					className={
@@ -174,7 +174,7 @@ const Categorias = (props) => {
 					</Menu.Item>
 					{categorias_generos}
 				</SubMenu>
-				)}
+				)} */}
 			</Menu>
 		</Layout>
 	);
